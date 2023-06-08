@@ -1,0 +1,9 @@
+<div>
+    <div class="results-container" *ngIf="!loading && data && data.length > 0">
+        <app-gallery-item *ngFor="let item of data" [item]="item"
+        (onBookmarkClick)="onBookmarkClick($event)"></app-gallery-item>
+    </div>
+    <div *ngIf="loading" class="loading-container">
+        <img src="https://i.gifer.com/YCZH.gif">
+    </div>
+</div>

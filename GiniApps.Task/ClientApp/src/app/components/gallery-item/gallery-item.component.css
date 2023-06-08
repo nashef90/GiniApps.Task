@@ -1,0 +1,59 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid silver;
+    border-radius: 10px;
+    width: 250px;
+    max-width: 250px;
+
+    max-height: 200px;
+    height: 200px;
+    box-sizing: content-box;
+}
+
+.item:hover {
+    border: 3px solid darkgray;
+}
+
+.bookmark-container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 40px;
+}
+
+.mat-icon {
+    color: gray;
+    font-size: 30px;
+    height: auto;
+    width: auto;
+}
+
+.mat-icon.bookmarked {
+    color: green;
+}
+
+.mat-icon:hover {
+    cursor: pointer;
+    zoom: 1.1;
+}
+
+.img-container {
+    max-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img-container img {
+    max-width: 100px;
+    max-height: 100px;
+    width: 100px;
+}
+
+.name {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 500;
+    color: blue;
+}

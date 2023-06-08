@@ -1,0 +1,17 @@
+<div>
+    <div>
+        <mat-form-field class="search" appearance="outline">
+            <mat-label>Search</mat-label>
+            <input matInput placeholder="Search repo name ..." [(ngModel)]="searchValue" (keyup.enter)="search()"
+                [disabled]="loading">
+            <mat-icon matSuffix>search</mat-icon>
+        </mat-form-field>
+    </div>
+    <div class="results-container" *ngIf="!loading && data && data.length > 0">
+        <app-gallery-item *ngFor="let item of data" [item]="item"
+            (onBookmarkClick)="onBookmarkClick($event)"></app-gallery-item>
+    </div>
+    <div *ngIf="loading" class="loading-container">
+        <img src="https://i.gifer.com/YCZH.gif">
+    </div>
+</div>

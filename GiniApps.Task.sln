@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiniApps.Task", "GiniApps.Task\GiniApps.Task.csproj", "{F243FC24-B30E-4214-84B1-F435F696426A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiniApps.Task.Logic", "GiniApps.Task.Logic\GiniApps.Task.Logic.csproj", "{9ABA531C-AAFF-40BF-A408-863517DA6A6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F243FC24-B30E-4214-84B1-F435F696426A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F243FC24-B30E-4214-84B1-F435F696426A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F243FC24-B30E-4214-84B1-F435F696426A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F243FC24-B30E-4214-84B1-F435F696426A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ABA531C-AAFF-40BF-A408-863517DA6A6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ABA531C-AAFF-40BF-A408-863517DA6A6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ABA531C-AAFF-40BF-A408-863517DA6A6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ABA531C-AAFF-40BF-A408-863517DA6A6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42BCAA2A-4935-4094-8F54-C97ACA70F02D}
+	EndGlobalSection
+EndGlobal

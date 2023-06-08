@@ -1,0 +1,10 @@
+<div class="item" *ngIf="item">
+    <div class="bookmark-container">
+        <mat-icon *ngIf="!item.bookmarked" (click)="onBookmarkClick.emit(item)">bookmark_add</mat-icon>
+        <mat-icon *ngIf="item.bookmarked" class="bookmarked" (click)="onBookmarkClick.emit(item)">bookmark_added</mat-icon>
+    </div>
+    <div class="img-container">
+        <img [src]="item.avatarURL" />
+    </div>
+    <div class="name">{{item.repoName}}</div>
+</div>
